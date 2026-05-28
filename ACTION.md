@@ -36,7 +36,7 @@ The ACTION Initiative will focus on:
 
 - Semantic Metadata: Utilizing YANG Model to provide the Natural Language Context or Constraint information required by LLMs.
 
-- Discovery: Developing a mechanism for AI agents to dynamically discover supported YANG modules via MCP.
+- Discovery: Developing a mechanism for AI agents to dynamically discover supported Prompt Templates corresponding to a set of YANG modules via MCP.
 
 Protocol changes or extensions to the YANG language itself remain the responsibility of the NETCONF WG and NETMOD WG respectively.
 

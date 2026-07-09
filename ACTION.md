@@ -30,23 +30,15 @@ to make YANG primitives (e.g., ontology, constraints, context, semantics) easily
 
 The primary goal of the ACTION Initiative is to provide operational guidance to make IETF YANG models "AI-ready." This includes defining a
 standardized framework for mapping between YANG data structures and AI-native MCP interfaces to enable autonomous network operations.
-The ACTION Initiative will focus on:
+The ACTION Initiative can be tasked with the following goals:
 
-- Structural Mapping: Defining how YANG Data Nodes map to MCP URIs (Resources) and how RPC and Action statements map to MCP Tool schemas.
+- YANG tools for AI:  Refactoring YANG-based network operations into AI-invocable tools using the Model Context Protocol (MCP) or Defining how YANG Data Nodes map to
+  MCP URIs (Resources) and how RPC and Action statements map to MCP Tool schemas.
 
-- Semantic Metadata: Utilizing YANG Model to provide the Natural Language Context or Constraint information required by LLMs.
+- Semantic Metadata: Utilizing YANG Model to provide the Metadata related to Context or Constraint information required by LLMs.
 
-- Discovery: Developing a mechanism for AI agents to dynamically discover supported Prompt Templates corresponding to a set of YANG modules via MCP.
+- Token Efficient Encoding: Development of a token-efficient YANG serialization mechanism tailored to agentic consumption.
+
+- Declarative Intent/Policy Overlay: Overlay ontology model encapsulated with invariants, business constraints, and dynamic behavioral policies.
 
 Protocol changes or extensions to the YANG language itself remain the responsibility of the NETCONF WG and NETMOD WG respectively.
-
-## Program of Work
-
-The ACTION Initiative is expected to fullfill the following tasks:
-
-- YANG to MCP Mapping Specification: Develop AI ready YANG model guide to map YANG nodes to MCP Resources and rpc/action statements to MCP Tools.
-
-- Semantic Enrichment Guidance: Provide best practices for using YANG model to provide the Natural Language Context or Constraint information LLMs require.
-
-- Standardized Prompts: Develop a library of reusable "Prompt Templates" for common network tasks (e.g., "Troubleshoot BGP peering") that utilize standardized
-  YANG-to-MCP mappings.

@@ -17,13 +17,3 @@ Meeting Agenda
 2. AI consumable YANG data model for IOT - 10 min + 5 min  Oscar Eduardo LOPEZ
 3. Rethinking YANG-based Service and Network management in the Era of Agentic AI  - 15 min + 5 min Qiufang Ma
 4. Open Discussion  15 mins
-
-Invitation List
-Telefonica  - Luis Miguel Contreras Murillo, Oscar Gonzalez de Dios
-Deutsche Telekom -Alex Huang, Roland Schott
-Swisscom - Thomas Graf
-Orange - Mohamed Boucadair
-Arrcus - Mahesh Jethanandani
-Cisco - Daniele Ceccarelli, Joe Clarke, Rob Wilton?
-Nokia - James Cumming
-Ericsson - Balazs Lengyel?
